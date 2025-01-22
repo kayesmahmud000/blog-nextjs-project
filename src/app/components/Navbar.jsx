@@ -7,7 +7,7 @@ const Navbar =  async() => {
     console.log(user)
     return (
         <>
-           <div className=" container mx-auto flex justify-center items-center my-5 border-b-2 py-3">
+           <div className=" container mx-auto  flex justify-center items-center my-5 border-b-2 py-3">
               <ul className="flex items-center text-md font-medium px-1 gap-7">
               <li><Link href={"/"}    className={`text-lg  hover:bg-none hover:text-red-500 transition-colors `}
                      >Home</Link></li>
